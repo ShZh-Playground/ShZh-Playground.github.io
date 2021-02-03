@@ -7,6 +7,22 @@ html, body {
   color: #fbfbfb;
 }
 
+.github-corner {
+  border-bottom: 0;
+  position: fixed;
+  right: 0;
+  text-decoration: none;
+  top: 0;
+  z-index: 1;
+}
+
+.github-corner svg {
+  color: #fff;
+  fill: var(--theme-color,black);
+  height: 80px;
+  width: 80px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
